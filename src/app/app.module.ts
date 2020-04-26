@@ -20,6 +20,7 @@ import {  UserService } from './_services/user.service';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { BookListComponent } from './book-list/book-list.component';
 
 @NgModule({
     imports: [
@@ -33,7 +34,8 @@ import { RegisterComponent } from './register/register.component';
         AlertComponent,
         HomeComponent,
         LoginComponent,
-        RegisterComponent
+        RegisterComponent,
+        BookListComponent
         
     ],
     providers: [
